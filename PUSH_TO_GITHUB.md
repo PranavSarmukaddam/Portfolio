@@ -87,10 +87,10 @@ You should see all your files EXCEPT:
 7. **Scroll down** → "Advanced" → "Add Environment Variable"
 8. **Add these 4 variables** (copy from your local `.env` file):
    ```
-   EMAIL_USER = sarmukaddam.pranav@gmail.com
-   EMAIL_PASSWORD = vkyxorgwqdawsbrp
-   NOTIFICATION_EMAIL = sarmukaddam.pranav@gmail.com
-   ADMIN_DASHBOARD_TOKEN = bahvdhvauqjvsxghsV%vahvsgca
+   EMAIL_USER = your_email@gmail.com
+   EMAIL_PASSWORD = your_16_char_app_password
+   NOTIFICATION_EMAIL = where_alerts_go@gmail.com
+   ADMIN_DASHBOARD_TOKEN = your_long_random_admin_token
    ```
 9. **Click**: "Deploy Service"
 10. **Wait 2 minutes** ⏳
@@ -126,7 +126,7 @@ You should see all your files EXCEPT:
 3. **Fill contact form** - submit a message
 4. **Check your email** - you should get a notification!
 5. Visit `/admin` (e.g., `https://portfolio.onrender.com/admin`)
-6. **Enter token**: `bahvdhvauqjvsxghsV%vahvsgca`
+6. **Enter token**: use the value from `ADMIN_DASHBOARD_TOKEN`
 7. **See your message** in the admin dashboard ✅
 
 ---
