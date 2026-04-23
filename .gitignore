@@ -1,0 +1,37 @@
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.test
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Database
+data/messages.db
+*.db
+*.sqlite
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+
+# Personal files (if needed)
+GMAIL_PASSWORD_BACKUP.txt
+.secrets/

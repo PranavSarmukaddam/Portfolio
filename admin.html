@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <meta name="description" content="Protected dashboard for the portfolio website." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner admin-topbar">
+        <a class="brand" href="/">Back to portfolio</a>
+        <div class="topbar-actions">
+          <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="shell admin-page-shell">
+      <section id="adminApp" class="panel admin-panel" hidden>
+        <div class="admin-hero">
+          <div>
+            <p class="eyebrow">Protected Dashboard</p>
+            <h1>Admin control room</h1>
+            <p class="meta">Unlock with your dashboard token to view messages, activity, and click analytics.</p>
+          </div>
+          <button id="adminLogoutButton" class="ghost-button" type="button">Lock dashboard</button>
+        </div>
+
+        <form id="adminLoginForm" class="admin-login-form">
+          <label for="adminTokenInput">Admin token</label>
+          <div class="admin-login-row">
+            <input
+              id="adminTokenInput"
+              name="adminToken"
+              type="password"
+              autocomplete="current-password"
+              placeholder="Enter dashboard token"
+            />
+            <button class="submit-button" type="submit">Unlock</button>
+          </div>
+          <p id="adminStatus" class="form-status" aria-live="polite"></p>
+        </form>
+
+        <div id="adminUnlockedView" class="admin-unlocked" hidden>
+          <div class="admin-stats-grid">
+            <article class="stat-card"><span>Messages</span><strong id="adminMessageCount">0</strong></article>
+            <article class="stat-card"><span>Clicks</span><strong id="adminClickCount">0</strong></article>
+            <article class="stat-card"><span>Events</span><strong id="adminEventCount">0</strong></article>
+          </div>
+
+          <div class="admin-grid">
+            <article class="panel inner-panel">
+              <h2>Recent messages</h2>
+              <div id="adminMessagesList" class="admin-list"></div>
+            </article>
+
+            <article class="panel inner-panel">
+              <h2>Top clicked items</h2>
+              <div id="adminClicksList" class="admin-list"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

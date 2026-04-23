@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website with projects, experience, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a id="brandName" class="brand" href="#home">Your Name / Site Title</a>
+        <div class="topbar-actions">
+          <button id="navToggle" class="icon-button nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <nav id="topnav" class="topnav">
+          <a href="#about">About</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#experience">Experience</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="shell layout">
+      <aside class="sidebar">
+        <div id="avatarWrap" class="avatar-wrap">
+          <img id="profilePhoto" src="" alt="Profile photo" loading="lazy" />
+          <p id="photoFallback" class="photo-fallback"></p>
+        </div>
+
+        <h2 id="sidebarName" class="sidebar-name">Your Name</h2>
+        <p id="sidebarRole" class="sidebar-role">Software Engineer</p>
+
+        <div class="sidebar-actions">
+          <a id="resumeButton" class="sidebar-button" href="#" download>
+            Download Portfolio PDF
+          </a>
+        </div>
+
+        <ul id="contactLinks" class="sidebar-links"></ul>
+      </aside>
+
+      <section class="content">
+        <article class="panel intro-panel">
+          <h1 id="heroHeadline">Personal Website</h1>
+          <p id="heroSummary" class="lead"></p>
+        </article>
+
+        <article id="about" class="panel">
+          <h2>About</h2>
+          <p id="aboutText"></p>
+        </article>
+
+        <article id="highlights" class="panel">
+          <h2>Highlights</h2>
+          <div id="highlightsGrid" class="feature-grid"></div>
+        </article>
+
+        <article id="skills" class="panel">
+          <h2>Skills</h2>
+          <ul id="skillsList" class="simple-list"></ul>
+        </article>
+
+        <article id="certifications" class="panel">
+          <h2>Certifications</h2>
+          <div id="certificationsList" class="timeline-list"></div>
+        </article>
+
+        <article id="projects" class="panel">
+          <h2>Projects</h2>
+          <div id="projectsGrid" class="project-list"></div>
+        </article>
+
+        <article id="experience" class="panel">
+          <h2>Experience</h2>
+          <div id="experienceList" class="experience-list"></div>
+        </article>
+
+        <article id="services" class="panel">
+          <h2>What I Bring to the Table</h2>
+          <div id="servicesGrid" class="feature-grid"></div>
+        </article>
+
+        <article id="contact" class="panel">
+          <h2>Contact</h2>
+          <form id="contactForm" class="contact-form">
+            <input
+              id="websiteInput"
+              name="website"
+              type="text"
+              autocomplete="off"
+              tabindex="-1"
+              aria-hidden="true"
+              class="honeypot"
+            />
+            <label for="nameInput">Name</label>
+            <input id="nameInput" name="name" type="text" required />
+
+            <label for="emailInput">Email</label>
+            <input id="emailInput" name="email" type="email" required />
+
+            <label for="messageInput">Message</label>
+            <textarea id="messageInput" name="message" rows="4" required></textarea>
+
+            <button class="submit-button" type="submit">Send</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer class="shell footer">
+      <div class="footer-row">
+        <p id="footerText"></p>
+        <a id="adminLink" class="footer-admin-link" href="/admin" data-track="1" data-track-type="footer-admin" data-track-label="Admin panel" data-track-path="/admin">Admin</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

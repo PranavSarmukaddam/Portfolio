@@ -1,0 +1,144 @@
+{
+  "name": "Pranav Sarmukaddam",
+  "role": "B.E. Computer Science (2023-2027) | AI/ML | Product Engineering",
+  "headline": "Turning Bold AI Ideas into Real-World Impact.",
+  "summary": "Third-year CSE student at MES Wadia College of Engineering, Pune, focused on AI/ML and product engineering. SIH 2025 Finalist and creator of CritiqAI, an end-to-end ML model auditing platform. Interested in responsible AI, assistive technology, and gamified learning.",
+  "about": "I build full-stack and AI-driven products that combine strong modeling with user-friendly interfaces. My experience spans ML pipelines, deep learning systems, and interactive applications, with an emphasis on measurable outcomes, explainability, and production readiness.",
+  "highlights": [
+    {
+      "title": "SIH 2025 Finalist",
+      "detail": "Built and pitched an AI-powered product in a high-competition national hackathon environment."
+    },
+    {
+      "title": "End-to-End Product Builder",
+      "detail": "From model training to API integration and frontend UX, experienced with complete delivery cycles."
+    },
+    {
+      "title": "Responsible AI Focus",
+      "detail": "Work emphasizes fairness, explainability, model robustness, and practical adoption."
+    }
+  ],
+  "profilePhoto": "assets/profile.jpg",
+  "resumePdf": "assets/resume.pdf",
+  "skills": [
+    "FastAPI",
+    "React",
+    "Node.js",
+    "Docker",
+    "Kubernetes",
+    "Git & GitHub",
+    "GitHub Actions",
+    "CI/CD Pipelines",
+    "Linux",
+    "Google Cloud Platform",
+    "AWS",
+    "Postman",
+    "Swagger / OpenAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "MLflow",
+    "Weights & Biases",
+    "Hugging Face",
+    "Apache Airflow",
+    "Power BI"
+  ],
+  "certifications": [
+    {
+      "name": "Machine Learning Specialization",
+      "issuer": "Coursera / DeepLearning.AI",
+      "year": "2025"
+    },
+    {
+      "name": "Google Cloud Fundamentals",
+      "issuer": "Google Cloud Skills Boost",
+      "year": "2025"
+    },
+    {
+      "name": "Unity Junior Developer",
+      "issuer": "Unity Learn",
+      "year": "2026"
+    },
+    {
+      "name": "GitHub Foundations",
+      "issuer": "GitHub",
+      "year": "2026"
+    }
+  ],
+  "projects": [
+    {
+      "title": "CritiqAI - ML Model Auditing Platform",
+      "description": "Built a full-stack platform that runs 8-stage autonomous audits on uploaded ML models and datasets, covering data quality, fairness, explainability, robustness, uncertainty, drift, and adversarial checks. Generates branded PDF reports with interactive visual analytics.",
+      "stack": ["FastAPI", "React", "SQLite", "scikit-learn", "SHAP", "PyTorch", "Recharts", "ReportLab"],
+      "liveUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "title": "Agricultural AI System - SIH 2025 Finalist",
+      "description": "Developed an AI-powered crop advisory platform selected as SIH'25 finalist. Trained deep learning pipelines with ResNet50 transfer learning and integrated real-time weather inputs via Open-Meteo API for context-aware recommendations.",
+      "stack": ["PyTorch", "torchvision", "scikit-learn", "Open-Meteo API", "joblib"],
+      "liveUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "title": "WinkWire - Blink-Controlled Virtual Keyboard",
+      "description": "Created assistive-tech software for hands-free typing using blink interaction. Implemented real-time blink detection with MediaPipe + OpenCV and classified single and double blinks for keyboard navigation and selection.",
+      "stack": ["Python", "MediaPipe", "OpenCV", "R Shiny"],
+      "liveUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "title": "Healthcare Prediction System",
+      "description": "Built an interactive diabetes risk assessment application on the PIMA dataset using Logistic Regression with robust preprocessing and visual evaluation through confusion matrix analytics.",
+      "stack": ["Python", "scikit-learn", "pandas", "NumPy", "Matplotlib"],
+      "liveUrl": "#",
+      "codeUrl": "#"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Game Developer Intern & Gamification Expert | FireBirdVR",
+      "duration": "Jan 2026 - Present",
+      "details": "Built gameplay systems for immersive VR experiences and designed end-to-end gamified learning journeys for corporate clients with measurable engagement outcomes."
+    },
+    {
+      "title": "Machine Learning Intern | OutriX",
+      "duration": "Aug 2025 - Sep 2025",
+      "details": "Developed production-ready ML pipelines for diabetes, student performance, and house price prediction with rigorous evaluation using classification and regression metrics."
+    },
+    {
+      "title": "Academic Support Volunteer | Make a Difference (MAD)",
+      "duration": "Jul 2024 - Aug 2025",
+      "details": "Mentored underprivileged children by creating tailored lesson plans and teaching aids aligned to individual learning needs."
+    },
+    {
+      "title": "Head of Department - Physics | Nakshatra Astronomy Club",
+      "duration": "Jul 2024 - Apr 2025",
+      "details": "Led physics workshops and STEM outreach initiatives, helping drive a 40% increase in member engagement."
+    }
+  ],
+  "services": [
+    {
+      "title": "AI/ML Prototyping",
+      "detail": "Rapid MVP development for predictive models, recommendation systems, and intelligent workflows."
+    },
+    {
+      "title": "Model Evaluation & Audit",
+      "detail": "Performance diagnostics, explainability checks, bias review, and production-readiness reporting."
+    },
+    {
+      "title": "Full-Stack Integration",
+      "detail": "Deploy models as APIs and build clean dashboards or apps for real users and stakeholders."
+    }
+  ],
+  "links": {
+    "email": "sarmukaddam.pranav@gmail.com",
+    "phone": "+91 7600065771",
+    "github": "https://github.com/PranavSarmukaddam",
+    "linkedin": "https://www.linkedin.com/in/pranavsarm",
+    "leetcode": "https://leetcode.com/u/Pranav_Sarmukaddam/"
+  }
+}
