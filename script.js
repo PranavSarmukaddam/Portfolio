@@ -616,20 +616,23 @@ function bindNavigation() {
 function configurePageMode() {
   const main = document.querySelector("main");
   const footer = document.querySelector("footer");
+  const adminApp = document.getElementById("adminApp");
   const isAdminPath = window.location.pathname.startsWith("/admin");
 
   if (isAdminPath) {
+    // On dedicated admin page, admin content lives inside <main>, so keep it visible.
     if (main) {
-      main.hidden = true;
+      main.hidden = adminApp ? false : true;
     }
     if (footer) {
       footer.hidden = true;
     }
-    document.getElementById("adminApp").hidden = false;
+    if (adminApp) {
+      adminApp.hidden = false;
+    }
     return true;
   }
 
-  const adminApp = document.getElementById("adminApp");
   if (adminApp) {
     adminApp.hidden = true;
   }
